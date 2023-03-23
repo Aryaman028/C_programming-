@@ -5,12 +5,12 @@ int fact(int x){
 	else{
 	int p;
 	p = x * fact(x-1);
-	printf("%d",p);
+	return p;
 	}
 }
 int main(){
 	int n,result;
 	scanf("%d",&n);
 	result=fact(n);
-//	printf("%d",result);
+	printf("%d",result);
 }
