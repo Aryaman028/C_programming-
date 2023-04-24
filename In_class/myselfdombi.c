@@ -1,4 +1,4 @@
-// Program to find the average of n numbers using arrays
+// average of n numbers using arrays
 
 #include <stdio.h>
 
